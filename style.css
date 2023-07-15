@@ -5,3 +5,19 @@
 p {
     color: gray;
 }
+
+
+footer {
+    height: 350px;
+}
+
+.ed-social i {
+    font-size: 1.8rem;
+    color: rgb(201, 197, 197);
+    padding: 0 10px;
+}
+.ed-social i:hover {
+    
+    color: skyblue;
+    
+}
