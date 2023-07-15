@@ -11,10 +11,12 @@
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
+
+    <!-- custom css  -->
+    <link rel="stylesheet" href="./style.css" />
   </head>
 
   <body>
-
     <header>
       <nav class="container">
         <header
@@ -25,7 +27,7 @@
               href="/"
               class="d-inline-flex link-body-emphasis text-decoration-none"
             >
-            <h1>Pro Edu</h1>
+              <h1>Pro Edu</h1>
             </a>
           </div>
 
@@ -33,11 +35,14 @@
             class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0"
           >
             <li><a href="#" class="nav-link px-4 link-secondary">Home</a></li>
-            <li><a href="#" class="nav-link px-4 link-secondary">Courses</a></li>
+            <li>
+              <a href="#" class="nav-link px-4 link-secondary">Courses</a>
+            </li>
             <li><a href="#" class="nav-link px-4 link-secondary">Deals</a></li>
-            <li><a href="#" class="nav-link px-4 link-secondary">Success</a></li>
+            <li>
+              <a href="#" class="nav-link px-4 link-secondary">Success</a>
+            </li>
             <li><a href="#" class="nav-link px-4 link-secondary">About</a></li>
-            
           </ul>
 
           <div class="col-md-3 text-end">
@@ -48,12 +53,140 @@
           </div>
         </header>
       </nav>
+
       <!-- Carousel  -->
-      <section>
-        
+      <section class="container">
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./images/cover/cover-1.png"
+                class="d-block w-100 hh"
+                alt="..."
+              />
+              <div
+                class="carousel-caption d-none d-md-block position-absolute w-100 h-100 top-0 start-0 ed-banner"
+              >
+                <div
+                  class="d-flex flex-column justify-content-center align-items-center w-100 h-100"
+                >
+                  <div class="w-50">
+                    <h1 style="font-size: 4rem" class="fw">
+                      Get Started Digital Learning
+                    </h1>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Eius aperiam ea rem dolor neque sit? Maiores quia optio
+                      facere officia?
+                    </p>
+                    <button class="btn btn-primary px-3 py-2">
+                      Get Started
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/cover/cover-3.jpg"
+                class="d-block w-100 hh"
+                alt="..."
+              />
+              <div
+                class="carousel-caption d-none d-md-block position-absolute w-100 h-100 top-0 start-0 ed-banner"
+              >
+                <div
+                  class="d-flex flex-column justify-content-center align-items-center w-100 h-100"
+                >
+                  <div class="w-50">
+                    <h1 style="font-size: 4rem" class="fw">
+                      Get Started Digital Learning
+                    </h1>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Eius aperiam ea rem dolor neque sit? Maiores quia optio
+                      facere officia?
+                    </p>
+                    <button class="btn btn-primary px-3 py-2">
+                      Get Started
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/cover/cover-3.jpg"
+                class="d-block w-100 hh"
+                alt="..."
+              />
+              <div
+                class="carousel-caption d-none d-md-block position-absolute w-100 h-100 top-0 start-0 ed-banner"
+              >
+                <div
+                  class="d-flex flex-column justify-content-center align-items-center w-100 h-100"
+                >
+                  <div class="w-50">
+                    <h1 style="font-size: 4rem" class="fw">
+                      Get Started Digital Learning
+                    </h1>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Eius aperiam ea rem dolor neque sit? Maiores quia optio
+                      facere officia?
+                    </p>
+                    <button class="btn btn-primary px-3 py-2">
+                      Get Started
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
       </section>
     </header>
-
 
     <!-- Bootstrap js   -->
     <script
