@@ -1,3 +1,7 @@
 .ed-banner{
     background-color: rgba(0, 0, 0, 0.651);
 }
+
+p {
+    color: gray;
+}
